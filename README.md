@@ -11,9 +11,7 @@ The accuracy of each model is computed on the test dataset. The accuracy scores 
 - SVM Accuracy: 0.80
 - Decision Tree Accuracy: 0.71
 - Naive Bayes Accuracy: 0.81
-<p align="center">
-  <img src="(https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap1.png)", alt=" add alt text here " width="50%" height="50%">
-</p>
+
 ### F1 Score
 The F1 scores for each model are calculated for both classes ('REAL' and 'FAKE'). The F1 scores for each model are as follows:
 - SVM F1 Score: [0.80, 0.81]
@@ -31,20 +29,39 @@ The evaluation results for each model are visualized using the Plotly library to
 
 Model Accuracy Bar Chart
 A bar chart displays the accuracy of each model, allowing easy comparison between the classifiers.
+<p align="center">
+  <img src="https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap1.png", alt=" Model Accuracy  " width="50%" height="50%">
+</p>
 
 Model F1 Score Grouped Bar Chart
 A grouped bar chart displays the F1 scores for each class ('REAL' and 'FAKE') for each model, enabling comparison of performance for both classes.
+<p align="center">
+  <img src="https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap2.png", alt=" Model F1 Score " width="50%" height="50%">
+</p>
 
 Confusion Matrix Heatmaps
 Interactive heatmaps represent the confusion matrices for each model, making it easy to analyze misclassifications.
+<p align="center">
+  <img src="https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap3.png", alt=" SVM Confusion Matrix " width="50%" height="50%">
+</p>
 
+<p align="center">
+  <img src="https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap4.png", alt=" Decision Tree Confusion Matrix" width="50%" height="50%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap5.png", alt=" Logistics Regression Confusion Matrix" width="50%" height="50%">
+</p>
 Classification Report Table
 A table presents the precision, recall, F1-score, and support for each class ('REAL' and 'FAKE') for each model.
+<p align="center">
+  <img src="https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap6.png", alt=" Classification Report" width="50%" height="50%">
+</p>
 
 ## Conclusion
 Based on the evaluation metrics, the Logistic Regression model appears to be the best-performing model for classifying fake news, achieving an accuracy of 81% and higher F1 scores for both classes.
 
-Feel free to explore the code and use it for your own classification tasks. If you have any questions or suggestions, please feel free to contact me.
+Feel free to explore the code and use it for your classification tasks. If you have any questions or suggestions, please feel free to contact me.
 
 Happy coding!
 
