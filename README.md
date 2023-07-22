@@ -1,6 +1,6 @@
 # Model Evaluation for Fake News Classification
 
-This repository contains code for evaluating different machine learning models for classifying fake news. The dataset used for this evaluation consists of labeled news articles as either "REAL" or "FAKE". Three popular classifiers, Support Vector Machine (SVM), Decision Tree, and Logistic Regression, are trained and evaluated on this dataset.
+This repository contains code for evaluating different machine-learning models for classifying fake news. The dataset used for this evaluation consists of labeled news articles as either "REAL" or "FAKE". Three popular classifiers, Support Vector Machine (SVM), Decision Tree, and Logistic Regression, are trained and evaluated on this dataset.
 
 ## Data Preparation
 The dataset is preprocessed to convert the raw text data into numerical feature vectors using the TF-IDF vectorization technique. The processed data is then split into training and testing sets.
@@ -23,6 +23,21 @@ Detailed classification reports for each model are provided, including precision
 
 ### Confusion Matrix
 The confusion matrices for each model are computed to visualize the true positive (TP), true negative (TN), false positive (FP), and false negative (FN) values.
+
+Visualizations
+The evaluation results for each model are visualized using the Plotly library to create interactive charts.
+
+Model Accuracy Bar Chart
+A bar chart displays the accuracy of each model, allowing easy comparison between the classifiers.
+
+Model F1 Score Grouped Bar Chart
+A grouped bar chart displays the F1 scores for each class ('REAL' and 'FAKE') for each model, enabling comparison of performance for both classes.
+
+Confusion Matrix Heatmaps
+Interactive heatmaps represent the confusion matrices for each model, making it easy to analyze misclassifications.
+
+Classification Report Table
+A table presents the precision, recall, F1-score, and support for each class ('REAL' and 'FAKE') for each model.
 
 ## Conclusion
 Based on the evaluation metrics, the Logistic Regression model appears to be the best-performing model for classifying fake news, achieving an accuracy of 81% and higher F1 scores for both classes.
