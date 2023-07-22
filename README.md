@@ -11,7 +11,9 @@ The accuracy of each model is computed on the test dataset. The accuracy scores 
 - SVM Accuracy: 0.80
 - Decision Tree Accuracy: 0.71
 - Naive Bayes Accuracy: 0.81
-
+<p align="center">
+  <img src="[link to image](https://github.com/Mishaa931/Model-Evaluation-for-Fake-News-Classification/blob/main/Graphs/heatmap1.png)", alt=" add alt text here " width="50%" height="50%">
+</p>
 ### F1 Score
 The F1 scores for each model are calculated for both classes ('REAL' and 'FAKE'). The F1 scores for each model are as follows:
 - SVM F1 Score: [0.80, 0.81]
