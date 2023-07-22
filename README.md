@@ -31,4 +31,4 @@ Feel free to explore the code and use it for your own classification tasks. If y
 
 Happy coding!
 
-*Note: The actual code for data preprocessing and model training is available in the Jupyter notebook 'fake_news_classification.ipynb'.*
+*Note: The actual code for data preprocessing and model training is available in the Jupyter notebook 'fake_news_classification.ipynb'.Code can be provided on request*
